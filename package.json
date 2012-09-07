@@ -1,0 +1,15 @@
+{
+  "name": "abx-express",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+    "flatiron": "latest",
+    "node-simple-router": "latest",
+    "express": "2.5.11",
+    "browserver-router": "latest",
+    "appjs": "latest"
+  }
+}
