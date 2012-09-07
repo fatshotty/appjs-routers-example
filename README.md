@@ -6,3 +6,5 @@
 * simple-routing
 
 (see example files)
+
+Note: all examples are based on appjs 0.0.19 (tested on MacOSx)
