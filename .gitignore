@@ -1,3 +1,5 @@
 node_modules/
 Contents/
 node
+.DS_Store
+Contents_old/
