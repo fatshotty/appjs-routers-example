@@ -7,8 +7,10 @@
   },
   "dependencies": {
     "flatiron": "latest",
+    "union": "latest",
     "node-simple-router": "latest",
     "express": "2.5.11",
+    "ejs": "latest",
     "browserver-router": "latest",
     "appjs": "0.0.20"
   }

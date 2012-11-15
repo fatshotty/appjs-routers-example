@@ -13,6 +13,9 @@ app.router.get('/', function () {
 
 
 AppJS.router.handle = function(req){
+  req.originalUrl = req.url;
+  req.url = req.pathname;
+
   console.info("Router with flatiron for: " + req.url);
   app.router.dispatch.apply(app.router, arguments);
 };

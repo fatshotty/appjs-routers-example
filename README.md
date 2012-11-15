@@ -20,8 +20,11 @@ node --harmony flatiron-appjs.js
 ```
 or
 ```
-node --harmony express-appjs.js
+node --harmony express-appjs-2.5.11.js
 ```
+(you can also see `express-appjs-3.js`)
+
+
 or
 ```
 node --harmony browserver-appjs.js

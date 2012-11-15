@@ -5,7 +5,11 @@ var Router = require('node-simple-router')({logging: false});
 
 
 Router.get("/", function(req, res){
-  res.end('Hello world');
+  res.end('Hello world<br/><a href="/test">Another link</a>');
+});
+
+Router.get("/test", function(req, res){
+  res.end('Somenthing else');
 });
 
 

@@ -6,7 +6,7 @@ var App = Express.createServer();
 
 
 App.get("/", function(req, res, next){
-  res.send(200, '<a href="/test">Hello World</a>');
+  res.render( __dirname + '/content/index.html' );
 });
 
 

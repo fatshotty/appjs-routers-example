@@ -25,4 +25,10 @@ var router = Router({
   }
 });
 
-AppJS.router.handle = router.bind(router);
+AppJS.router.handle = function(req){
+  req.originalUrl = req.url;
+  req.url = req.pathname;
+
+  console.info("Router with flatiron for: " + req.url);
+  router.apply(router, arguments);
+};
