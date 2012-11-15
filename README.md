@@ -4,7 +4,7 @@ here are some example code for how to integrate an already existing web site (ba
 
 ## Integrated frameworks
 
-* express (only 2.5.11 will be supported by this example. If you want to use express 3.0 you can follow the example code here: http://pastie.org/5141952)
+* express (only 2.5.11 will be supported by this example. If you want to use express 3.0 see `express-appjs-3.js`)
 * flatiron
 * browserver-router
 * simple-routing

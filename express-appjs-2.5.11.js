@@ -6,7 +6,7 @@ var App = Express.createServer();
 
 
 App.get("/", function(req, res, next){
-  res.render( __dirname + '/content/index.html' );
+  res.end('Hello world<br/><a href="/test">Another link</a>');
 });
 
 
