@@ -15,4 +15,10 @@ App.get("/test", function(req, res, next){
 });
 
 
-AppJS.router.handle = App.handle.bind(App);
+AppJS.router.handle = function(req){
+  // Express needs req.url for handling the route
+  req.originalUrl = req.url;
+  req.url = req.pathname;
+
+  App.handle.apply(App, arguments);
+};

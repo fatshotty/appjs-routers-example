@@ -10,6 +10,6 @@
     "node-simple-router": "latest",
     "express": "2.5.11",
     "browserver-router": "latest",
-    "appjs": "latest"
+    "appjs": "0.0.20"
   }
 }
