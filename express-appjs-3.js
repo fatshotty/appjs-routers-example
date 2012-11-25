@@ -1,5 +1,5 @@
 // include Appjs
-var AppJS = require('appjs');
+var AppJS = require('./appjs');
 
 // include express 3.0
 var Express = require("express");
@@ -56,19 +56,4 @@ App.get("/", function(req, res, next){
 
 App.get("/test", function(req, res, next){
   res.send(200, "Something else");
-});
-
-
-// Create Appjs application windows
-
-var Window = AppJS.createWindow({
-  width  : 640,
-  height : 460,
-  icons  : __dirname + '/content/icons'
-});
-
-Window.on('create', function(){
-  console.log("Window Created");
-  Window.frame.show();
-  Window.frame.center();
 });
